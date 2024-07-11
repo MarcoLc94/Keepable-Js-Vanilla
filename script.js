@@ -296,7 +296,7 @@ const NoteForm = (function () {
         id: uuidv4(),
         title: title.value,
         body: body.value,
-        color: color.value || "white",  // Default to white if no color selected
+        color: color.value || "white", // Default to white if no color selected
       });
       e.target.reset();
       e.target.style.backgroundColor = "";

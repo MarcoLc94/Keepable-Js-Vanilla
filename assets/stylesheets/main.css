@@ -7,7 +7,8 @@
   display: grid;
   grid-template-rows: 70px 1fr;
   grid-template-columns: 280px 1fr;
-  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
 }
 
 .header {
@@ -88,7 +89,7 @@
     width: auto;
     padding: 15px;
   }
-  
+
   .aside {
     display: none;
   }
@@ -135,4 +136,3 @@
     padding: 5px;
   }
 }
-
