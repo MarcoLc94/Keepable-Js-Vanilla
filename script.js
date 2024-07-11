@@ -288,11 +288,15 @@ const NoteForm = (function () {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       const { title, body, color } = e.target;
+      if (title.value.trim() === "" || body.value.trim() === "") {
+        alert("Title and body cannot be empty!");
+        return;
+      }
       STORE.notes.push({
         id: uuidv4(),
         title: title.value,
         body: body.value,
-        color: color.value,
+        color: color.value || "white",  // Default to white if no color selected
       });
       e.target.reset();
       e.target.style.backgroundColor = "";
