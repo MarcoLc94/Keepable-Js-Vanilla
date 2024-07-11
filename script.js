@@ -3,22 +3,8 @@ const STORE = {
   notes: [
     {
       id: uuidv4(),
-      title: "A note",
-      body: "A content",
-      color: "yellow",
-      deleted: false,
-    },
-    {
-      id: uuidv4(),
-      title: "A note",
-      body: "A content",
-      color: "white",
-      deleted: false,
-    },
-    {
-      id: uuidv4(),
-      title: "A note",
-      body: "A content",
+      title: "Instruccions",
+      body: "This is a test note from Marco-Dev, Let´s try your own notes! You can add a new note, add a title and your favorite color a Keep it!!!!",
       color: "turquoise",
       deleted: false,
     },
